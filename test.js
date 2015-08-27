@@ -7,3 +7,11 @@ describe('Array', function() {
     });
   });
 });
+
+describe('Number', function() {
+  describe('equal', function () {
+    it('1 should equal 1', function () {
+      assert.equal(-1, 1);
+    });
+  });
+});
